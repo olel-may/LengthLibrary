@@ -1,3 +1,4 @@
+import com.test.meter.Centimeter;
 import com.test.meter.Meter;
 
 /**
@@ -11,5 +12,8 @@ public class Main {
     public static void main(String[] args) {
         Meter meter = new Meter(98);
         System.out.println(meter);
+
+        Centimeter centimeter = new Centimeter(5);
+        System.out.println(centimeter);
     }
 }
